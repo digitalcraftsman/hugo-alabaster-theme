@@ -1,0 +1,12 @@
+{{ if ne .Site.Menus.main nil }}
+{{ if gt (len .Site.Menus.main) 0 }}
+<h3>Navigation</h3>
+<ul>
+	{{ range .Site.Menus.main }}
+	<li class="toctree-l1">
+		<a class="reference internal" href="{{ .URL }}">{{ .Name }}</a>
+	</li>
+	{{ end }}
+</ul>
+{{ end }}
+{{ end }}
