@@ -12,6 +12,8 @@ Install with `git`:
 git clone git@github.com:digitalcraftsman/hugo-alabaster-theme.git themes/hugo-alabaster-theme
 ```
 
+> This theme uses the latest developement version of Hugo. Therefore, it doesn't work with the official releases. Look [here](https://github.com/spf13/hugo#build-and-install-the-binaries-from-source-advanced-install) if you want to know how to build Hugo from source.
+
 Next, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your documentation. 
 
 Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary. 
