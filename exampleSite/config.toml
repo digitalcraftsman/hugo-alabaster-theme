@@ -1,0 +1,37 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+metadataformat = "yaml"
+title = "Alabaster"
+theme = "hugo-alabaster-theme"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[params]
+	name = "Alabaster"
+	description = "A documentation theme for Hugo."
+
+	github_user   = "digitalcraftsman"
+	github_repo   = "hugo-alabaster-theme"
+	github_banner = true
+
+	custom_css = []
+	custom_js  = []
+
+	highlightjs = "css/highlight.css"
+	favicon = "favicon.ico"
+
+[params.sidebar]
+	logo = "favicon.ico"
+
+
+	github_button  = true
+	travis_button  = false
+	codecov_button = false
+	gratipay = ""
+
+	show_relations = true
+
+[params.footer]
+	copyright = "[Digitalcraftsman](https://github.com/digitalcraftsman)"
+	show_powered_by = true
