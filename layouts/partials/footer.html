@@ -1,5 +1,5 @@
 <div class="footer">
-	&copy; {{ .Now.Format "2006" }} {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}
+	&copy; {{ now.Format "2006" }} {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}
 	{{ if .Site.Params.footer.show_powered_by -}}
 	|
 	Powered by <a href="http://gohugo.io/">Hugo {{ .Hugo.Version }}</a>
