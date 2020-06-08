@@ -2,6 +2,8 @@
 
 A documentation theme ported from [Sphinx](http://www.sphinx-doc.org/en/stable/) to [Hugo](https://gohugo.io).
 
+#### Please note that this theme is no longer maintained.
+
 [![Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-alabaster-theme/dev/images/screenshot.png)](https://digitalcraftsman.github.io/hugo-alabaster-theme/)
 
 ## Quick start
